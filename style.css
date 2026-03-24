@@ -1,0 +1,28 @@
+#countLabel{
+    display: block;
+    text-align: center ;
+    font-size: 10em ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+ 
+.buttons{
+    padding: 10px 20px;
+    text-align: center ;
+    font-size: 1.5em;    /*em is like px */
+    color: white;
+    background-color: rgb(131, 24, 24);
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(176, 17, 17); 
+    /* don't change the whole background color, just make it lighter.
+    looks better ;) */
+}
